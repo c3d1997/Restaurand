@@ -3,5 +3,6 @@
         "activityBar.background": "#07323E",
         "titleBar.activeBackground": "#094656",
         "titleBar.activeForeground": "#F6FCFE"
-    }
+    },
+    "livePreview.defaultPreviewPath": "d:\\chrisli工作目錄\\練習紀錄\\restaurant\\index.html"
 }
