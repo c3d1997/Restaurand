@@ -56,6 +56,12 @@ a {
     font-weight: bold;
 }
 
+.heading--2 {
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: bold;
+}
+
 .heading--5 {
     font-size: 24px;
     line-height: 32px;
@@ -66,6 +72,13 @@ a {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     line-height: 24px;
+    font-weight: normal;
+}
+
+.text--normal {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
     font-weight: normal;
 }
 
@@ -80,6 +93,10 @@ a {
 /* 顏色 color */
 .color--Primary {
     color: #FF9F0D;
+}
+
+.color--Black {
+    color: #0D0D0D;
 }
 
 /* 卡片 card */
@@ -247,6 +264,10 @@ input::placeholder {
     gap: 24px;
 }
 
+.ReadMore ul li img {
+    margin-right: 10px;
+}
+
 .ReadMore .introduce__card {
     width: 40%;
     min-width: 528px;
@@ -280,6 +301,101 @@ input::placeholder {
     grid-area: img3;
 }
 
+/* ChooseFood */
+.ChooseFood {
+    margin-top: 120px;
+}
+
+.ChooseFood .introduce__title {
+    text-align: center;
+}
+
+.ChooseFood__img {
+    margin-top: 56px;
+    display: grid;
+    gap: 32px;
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-areas:
+        'img01 img02 img03 img04';
+}
+
+.ChooseFood__img img:nth-child(1) {
+    grid-area: img01;
+}
+
+.ChooseFood__img img:nth-child(2) {
+    grid-area: img02;
+}
+
+.ChooseFood__img img:nth-child(3) {
+    grid-area: img03;
+}
+
+.ChooseFood__img img:nth-child(4) {
+    grid-area: img04;
+}
+
+/* Exta */
+.Exta {
+    margin-top: 120px;
+}
+
+.Exta__img--top {
+    gap: 12px;
+    align-items: flex-end;
+    margin-bottom: 12px;
+}
+
+.Exta__img--bottom {
+    gap: 12px;
+    align-items: flex-start;
+}
+
+.Exta__img--right {
+    gap: 12px;
+    flex-direction: column;
+}
+
+.Exta img {
+    object-fit: contain;
+}
+
+.Exta__smallIcon {
+    gap: 32px;
+}
+
+.Exta__smallIcon__img {
+    flex-direction: column;
+    align-items: center;
+}
+
+.Exta__smallIcon__img img {
+    margin-bottom: 8px;
+}
+
+.introduce__card--btnBig {
+    width: 100%;
+    max-width: 274px;
+    background-color: white;
+    border-radius: 6px;
+    padding: 18px 50px;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 10px solid #FF9F0D;
+}
+
+.Exta .introduce__card {
+    margin-left: 135px;
+    margin-top: 62px;
+}
+
+/* middle */
+
+.middle {
+    background: url(../images/middleBG.png)no-repeat center;
+    margin: auto;
+
+}
 
 
 @media (max-width:960px) {
